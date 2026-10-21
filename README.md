@@ -1,25 +1,24 @@
-# CAFE SALES DATA CLEANING
+# Cafe Sales Data Cleaning
 
-**Dataset: ** cafe sales-Dirty Data for cleaning Training (Kaggle)
+*Dataset:* Cafe Sales - Dirty Data for Cleaning Training (Kaggle)
 
-**Tool used: ** Microsoft Excel
+*Tool used:* Microsoft Excel
 
-**Rows before:**10,000
+*Rows before:* 10,000
 
-**Rows after:**9,972
+*Rows after:* 9,972
 
 ## Issues found and fixes
 
-_**Missing values (numeric):**quantity, price and total were recalculated using total = quantity*price. 28 rows with 2 or more missing values were removed.
-_**Missing /invalid text: **"ERROR","UNKNOWN" and blanks were replaced with "unknown"(item:966,payment Method:3,168,location:3949).
-_**inconsistent values: **Extra spaces and mixed casing fixe (TRIM,PROPER).
-_**incorrect data types: ** Dates stored as text (dd-mm-yy) and real dates were converted to one date format .
-_**Missing dates: ** 458 left blank (not guesses).
-_**Duplicates:** 0 duplicate Transaction IDs found.
+- *Missing values (numeric):* Quantity, Price and Total were recalculated using Total = Quantity x Price. 28 rows with 2 or more missing values were removed.
+- *Missing/invalid text:* "ERROR", "UNKNOWN" and blanks were replaced with "Unknown" (Item: 966, Payment Method: 3,168, Location: 3,949).
+- *Inconsistent values:* Extra spaces and mixed casing fixed (TRIM, PROPER).
+- *Incorrect data types:* Dates stored as text (dd-mm-yy) and real dates were converted to one date format.
+- *Missing dates:* 458 left blank (not guessed).
+- *Duplicates:* 0 duplicate Transaction IDs found.
 
+## Files
 
-## Files 
-
-_raw_data.csv-original data 
--afzal.xlsx-cleaned data + cleaning log sheet
--README.md-this file
+- raw_data.csv - original data
+- Afzal.xlsx - cleaned data + Cleaning Log sheet
+- README.md - this file
