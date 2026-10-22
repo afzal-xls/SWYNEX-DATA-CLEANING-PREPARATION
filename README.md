@@ -19,6 +19,6 @@
 
 ## Files
 
-- raw_data.csv - original data
-- Afzal.xlsx - cleaned data + Cleaning Log sheet
+- dirty_cafe_sales.xlsx.xlsx - original data
+- cleaned_cafe_data_xlsx.xlsx- cleaned data + Cleaning Log sheet
 - README.md - this file
